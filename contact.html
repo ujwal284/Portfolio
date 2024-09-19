@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(0, 0, 33);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            margin-bottom: 20px;
+        }
+
+        .contact-box {
+            background-color: #fff;
+            color: rgb(0, 0, 33);
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .contact-box h2 {
+            margin-top: 0;
+            color: rgb(0, 0, 33);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: -1px solid #ccc;
+            border-radius: 25px;
+        }
+
+        .contact-form button {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .contact-form button:hover {
+            background-color: #0047ff;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: rgb(0, 0, 33);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .contact-box {
+                padding: 15px;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                padding: 8px;
+            }
+
+            .contact-form button {
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="contact-box">
+                <h1>Contact Us</h1>
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+                    <p><strong>Phone:</strong> <a href="tel:+123456789">+123 456 789</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Portfolio</h3>
+            </div>
+
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &copy; www.ujwalportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>

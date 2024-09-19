@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(0, 0, 33);
+
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .project-item {
+            background-color: #fff;
+
+            color: rgb(0, 0, 33);
+
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item h3 {
+            color: rgb(0, 0, 33);
+
+        }
+
+        .project-item p {
+            color: #555;
+        }
+
+        .project-item a {
+            text-decoration: none;
+            color: rgb(0, 0, 33);
+            font-weight: bold;
+            background-color: #007bff;
+            padding: 10px 15px;
+            border-radius: 3px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .project-item a:hover {
+            background-color: #0047ff;
+            color: white;
+        }
+    </style>
+
+    <header>
+        <nav>
+            <div class="left">Porofolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/about.html">About</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <div class="container">
+            <h1>Web Development Projects</h1>
+
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>E-commerce Website</h3>
+                    <p>A fully responsive e-commerce website built using HTML, CSS, JavaScript, and integrated with
+                        Stripe for secure online payments. This project includes a product catalog, shopping cart, and
+                        checkout system.</p>
+                    <a href="https://github.com/ujwal284?tab=repositories" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website built to showcase skills and projects. This website is built using
+                        React and features smooth navigation, a responsive design, and a dynamic contact form.</p>
+                    <a href="https://github.com/ujwal284?tab=repositories" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Task Manager Application</h3>
+                    <p>A task management web application built with Node.js and Express. Users can create, edit, and
+                        delete tasks, and track progress with intuitive UI. The app also supports authentication and
+                        data storage using MongoDB.</p>
+                    <a href="https://github.com/ujwal284?tab=repositories" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Weather App</h3>
+                    <p>A weather forecast application using OpenWeather API. Users can search for any city and receive
+                        up-to-date weather information, including temperature, humidity, and forecasts for upcoming
+                        days. Built using Vanilla JavaScript and API integration.</p>
+                    <a href="https://github.com/ujwal284?tab=repositories" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Blog Platform</h3>
+                    <p>A full-stack blog platform built with Python and Django. The platform allows users to register,
+                        create, edit, and delete blog posts. It includes a comment system, user authentication, and a
+                        sleek, responsive design.</p>
+                    <a href="https://github.com/ujwal284?tab=repositories" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-item">
+                    <h3>Chat Application</h3>
+                    <p>A real-time chat application built using Socket.IO and Node.js. This project enables users to
+                        create rooms and chat in real-time, with features like notifications and typing indicators.</p>
+                    <a href="https://github.com/ujwal284?tab=repositories" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Portfolio</h3>
+            </div>
+
+            <div class="footer-second"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+
+
+            </ul>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-rights">
+            Copyright &copy; www.ujwalportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
